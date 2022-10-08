@@ -21,7 +21,6 @@
           <span><%= image_tag "icons/logo.png", class: "navbar-brand" %></span>
         <% end %>
         <ul class="nav navbar-nav navbar-right">
-          <% if logged_in? %>
             <li>
               <%= link_to favorites_index_path do %>
                 <%= image_tag "icons/heart.png" %>
@@ -48,7 +47,6 @@
                 <%= image_tag "icons/login.png" %>
               <% end %>
             </li>
-          <% end %>
         </ul>
       </div>
     </nav>

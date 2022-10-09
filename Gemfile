@@ -42,6 +42,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'file_validators'
 gem 'font-awesome-sass'
+gem 'fog-aws'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -51,6 +52,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
   gem 'sqlite3'
+  gem 'dotenv-rails'
 end
 
 group :development do
